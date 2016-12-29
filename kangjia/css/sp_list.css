@@ -1,0 +1,55 @@
+ul, li, a, div, p, span, h1, h2, h3, h4{font-family: "微软雅黑";}
+.sp_fj{width: 100%;height: 25px;background: #f5f5f5;}
+.fj,.main{width: 1200px;margin: 0 auto;}
+.fj{height: 25px;}
+.main{height: auto;font-size: 14px;}
+.Main{width: 100%;height: auto;background: #f5f5f5;padding-bottom: 50px;}
+/*     商品筛选条件     */
+.main_filter{height: 409px;border: 1px solid #dfdfdf;border-radius: 3px;background: #fff;margin-bottom: 20px;}
+.filter_title{height: 55px;background: #fff;line-height: 55px;padding-left: 25px;padding-right: 10px;border-bottom: 1px solid #e5e5e5;}
+.filter_title h3{color: #666;float: left;}
+.title_cen{float: left;padding-left: 25px;font-size: 14px;color: #999;}
+.title_cen span{color: #d62528;font-size: 16px;font-weight: bold;}
+.title_r{float: right;}
+.title_r a{color: #0563c3;font-size: 14px;}
+.filter_bott_t{height: 47px;background: #f9f9f9;line-height: 47px;padding-left: 25px;color: #666;}
+.filter_bott_b{padding: 10px 25px 0px 25px;background: #fff;}
+.filter_bott_b dl{border-bottom: 1px solid #e5e5e5;margin-bottom: 5px;line-height: 43px;color: #666;}
+.filter_bott_b dt{float: left;margin-right: 3px;width: 76px;text-align: left;}
+.filter_bott_b dd a{color: #666;margin-right: 32px;}
+.filter_bott_b .dd_bx{display: inline-block;width: 51px;height: 25px;text-align: center;line-height: 25px; border-radius: 3px;background: #ff5d59;color: #fff;}
+.filter_bott_b dd input{width: 38px;height: 18px;}
+.filter_bott_b dd button{border: none;width: 45px;height: 25px;background: #ff5d59;color: #fff;border-radius: 3px;margin-left: 5px;}
+.main_sortbar{height: 65px; border: 1px solid #ddd;background: #fff;border-radius: 3px;margin-bottom: 20px;}
+.main_sortbar_l{float: left;padding:20px 0px 20px 30px;width: 300px;}
+.main_sortbar_l a{line-height: 21px;padding: 0px 28px;color: #666;border-right: 1px solid #d3d3d3;}
+.main_sortbar_l .mr{color: #ff5d59;}
+.main_sortbar_c{float: left;margin: 20px 0px;padding: 0px 50px;border-right: 1px solid #d3d3d3;}
+.main_sortbar_c a{margin: 0px 5px;color: #666;}
+.main_sortbar_c label{color: #666;}
+.main_sortbar_label{height: 25px;line-height: 25px;padding-left: 45px;float: left;margin-top: 15px;}
+.main_sortbar_label label{margin-right: 20px;color: #666;}
+.main_sortbar_r{float: right;margin-right: 10px;padding-top: 20px;text-align: right;}
+.main_sortbar_r .color{color: #ff5d59;}
+.main_sortbar_r a{display: inline-block;width: 36px;height: 23px;}
+.main_sortbar_r .al{background: url(../images/sp_list/wl.png)}
+.main_sortbar_r .al{margin-right: 2px;}
+.main_sortbar_r .ar{background: url(../images/sp_list/wr.png)}
+/*     说有商品列表css     */
+.main_sp ul li{float: left;width: 285px;height: 424px;text-align: center; background: #fff;margin-right: 17px;margin-bottom: 15px;padding-top: 15px;padding-bottom: 15px;border-bottom: 1px solid #dfdfdf;}
+.main_sp ul li .gwc{height: 46px;margin-left: 30px;visibility: hidden;}
+.main_sp ul li .gwc p{float: left;cursor:pointer}
+.main_sp ul li .gwc .sc{margin-right: 20px;}
+.main_sp ul li .sp_img{width: 240px;height: 240px;margin-left: 23px;}
+.main_sp ul li .sp_img img{width: 100%;height: 100%;}
+.main_sp ul li .sp_sj{width: 285px;height: 40px;margin-top: 35px;}
+.main_sp ul li .sp_sj h3{font-weight: 400;}
+.main_sp ul li .sp_sj h3 a{color: #333;}
+.main_sp ul li .sp_jj p{font-size: 16px;color: #666;}
+.main_sp ul li .sp_jj .pb{color: #ff0000;}
+.main_sp ul li .sp_jj .jg{color: #ff5d59;font-weight: bold;}
+.main_sp ul .right{margin-right: 0;}
+
+
+
+

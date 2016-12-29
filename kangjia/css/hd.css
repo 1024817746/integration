@@ -1,0 +1,69 @@
+/*    活动页    */
+body,ul,li,a,div,p,span,h1,h2,h3,h4,form,dl,dt,dd{margin: 0;padding: 0;font-family: "微软雅黑";}
+li{list-style: none;}
+em, i {font-style: normal;}
+a{text-decoration: none;}
+.header,.hd_a,.hd_b,.hd_c,.logo{width: 976px;margin: 0 auto;}
+.Header,.Hd_a,.Hd_b,.Hd_c,.Logo{width: 100%;background-color: #fdfdfd;}
+/*    活动页头部    */
+.Header{height: 35px;border-bottom: solid 1px #e3e3e3;}
+.header{height: 35px;}
+.header_left{width: 90px;height: 35px;float: left;}
+.header_left a{display: block;width: 35px;height: 35px;float: left;position: relative;}
+.header_left .a1{background:url(../images/hd/wx.jpg) no-repeat center center;margin-right: 16px;}
+.header_left .a2{background:url(../images/hd/xl.jpg) no-repeat center center;}
+.header_left .a1:hover{background:url(../images/hd/wx2.jpg) no-repeat center center;}
+.header_left .a2:hover{background:url(../images/hd/xl2.jpg) no-repeat center center;}
+.header_left img{display: block;position: absolute;top:36px;display: none;z-index: 50px;-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.5);box-shadow: 0px 15px 30px rgba(0,0,0,0.5);}
+.header_right{float: right;line-height: 35px;}
+.header_right p{float: right;}
+.header_right p a{font-size: 12px;color: #666;padding: 0px 15px;}
+.header_right p a:hover{color: #ff5d59;}
+/*    活动页logo    */
+.Logo{height: 64px;border-bottom: solid 1px #e3e3e3;}
+.logo{height: 64px;}
+.logo .logo_tu{float: left;}
+.logo ul{float: left;margin-left: 20px;} 
+.logo ul li{float: left;line-height: 64px;}
+.logo ul li a{display: block;height: 60px;font-size: 14px;color: #666;padding: 0px 16px;}
+.logo ul li a:hover{border-bottom: 4px solid #f84a33;color: #f84a33;}
+/*    活动页banner    */
+.Banner{width: 100%;height: 370px;background: #f7f7f7;padding-top: 10px;}
+.banner{width: 100%;height: 370px;margin: 0 auto;}
+.banner img{width: 100%;height: 100%;}
+.Hd_a{height: 560px;}
+.hd_a{padding-top: 65px;}
+.hd_a h1{font-weight: normal;font-size: 29px;line-height: 41px;color: #333333;margin: 0 auto 6px;text-align: center;}
+.hd_a p{width: 500px;font-size: 14px;line-height: 24px;color: #666666;margin: 0 auto;}
+.hd_a a{display: block;width: 310px;float: left;margin-right: 15px;text-align: left;color: #333;font-size: 16px;line-height: 20px;}
+.Hd_b{height: 560px;background: #ededed;}
+.hd_b{padding-top: 65px;}
+.hd_b h1{font-weight: normal;font-size: 29px;line-height: 41px;color: #333333;margin: 0 auto 6px;text-align: center;}
+.hd_b p{width: 500px;font-size: 14px;line-height: 24px;color: #666666;margin: 0 auto;}
+.hd_b a{display: block;width: 310px;float: left;margin-right: 15px;text-align: left;color: #333;font-size: 16px;line-height: 20px;}
+.Hd_c{height: 648px;}
+.hd_c{padding-top: 65px;}
+.hd_c h1{font-weight: normal;font-size: 29px;line-height: 41px;color: #333333;margin: 0 auto 6px;text-align: center;}
+.hd_c p{width: 500px;font-size: 14px;line-height: 24px;color: #666666;margin: 0 auto;}
+.hd_c a{display: block;margin-right: 15px;text-align: left;color: #333;font-size: 16px;line-height: 20px;}
+.Footer{width: 100%;height: 206px;background: #e9eaeb;}
+/*    活动页footer    */
+.footer{width: 960px;margin: 0 auto;height: 206px;}
+.footer .footer_top{padding-top: 40px;height: auto;}
+.footer_top .footer_top_l{width: 210px;height: 98px;border-right: 1px solid #c1c1c1;float: left;text-align: center;}
+.footer_top .footer_top_l a{font-size: 12px;color: #666;padding: 20px 5px 0px;}
+.footer_top .footer_top_l a:hover{color: #ff5d59;}
+.footer_top .footer_top_r{width: 715px;min-height: 68px;padding: 4px 0 4px 24px;float: left;color: #666;}
+.footer_top .footer_top_r li{width: 100px;text-align: left;display: inline-block;zoom: 1;padding-right: 50px;line-height: 30px;padding: 0 25px;}
+.footer_top .footer_top_r li a{font-size: 14px;color: #666;}
+.footer_top .footer_top_r li a:hover{color: #ff5d59;}
+.footer_bottom{text-align: center;color: #666;font-size: 14px;margin-top: 120px;}
+.footer_bottom a{color: #666;font-size: 14px;}
+.cebian{cursor:pointer;height: 50px;width: 50px;position: fixed;top: 70%;right: 1%;margin-left: 0;z-index: 990;}
+.cebian .yl{width: 50px;height: 50px;margin-top: 1px;z-index: 990;}
+.cebian .cb_e{background: url(../images/cebian/cb5.jpg);}
+
+
+
+
+

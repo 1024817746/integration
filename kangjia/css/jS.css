@@ -1,0 +1,46 @@
+/*     商品结算     */
+ul, li, a, div, p, span, h1, h2, h3, h4{font-family: "微软雅黑";}
+.fj{width: 100%;height: 25px;background: #f5f5f5;}
+.sP-jsy{width: 100%;background: #f5f5f5;padding-bottom: 50px;}
+.sp-jsy{width: 1200px;margin: 0 auto;}
+.sP-jsy{height: auto;}
+.sp-jsy{height: auto;}
+.sp-jsy .title{height: auto;line-height: 50px;border: 1px solid #dfdfdf;border-radius: 5px 5px 0px 0px;background: #efefef;}
+.sp-jsy h1{color: #666666;font-size: 18px;padding-left: 25px;height: 50px;line-height: 50px;font-weight: 400;}
+.sp-jsy .js-main{color: #666;font-family: "微软雅黑";}
+/*    订单信息    */
+.js-main .main-xx{height: auto; border: 1px solid #e6e6e6;background: #fff;padding-bottom: 20px;}
+.js-main .main-xx ul li{margin-top: 20px;}
+.js-main .main-xx ul .xx-jc{color: #ff0000;display: none;margin-left: 400px;font-size: 16px;}
+.js-main .main-xx ul li p{width: 190px;text-align: right;float: left;}
+.js-main .main-xx ul li p em{color: #ff0000;}
+.js-main .main-xx ul li input{height: 25px;margin-left: 5px;}
+.js-main .main-xx ul li .puta{width: 400px;}
+.js-main .main-xx ul li .but{margin-left: 200px;border: none;width: 114px;height: 26px;background: #ff5d59;color: #fff;border-radius: 3px;}
+.js-main .main-zf{height: auto;margin-top: 25px;border: 1px solid #e6e6e6;background: #fff;padding-bottom: 20px;}
+.js-main .main-zf input{margin-left: 100px;}
+.js-main .main-zf ul li {margin-top: 20px;}
+.js-main .main-zf ul li .but{margin-left: 100px;border: none;width: 114px;height: 26px;background: #ff5d59;color: #fff;border-radius: 3px;}
+.js-main .main-sp{height: auto;margin-top: 25px;border: 1px solid #e6e6e6;background: #fff;padding-bottom: 20px;}
+.js-main .main-sp h1{background: #fff;}
+/*    订单商品列表    */
+.gwc_sp_qk{width: 100%;background-color: #f0f0f0;height: 40px;line-height: 40px;font-size: 12px;color: #666666;}
+.gwc_sp_qk p{float: left;width: 105px;text-align: center;}
+.gwc_sp_list li{height: 244px;border-bottom: 1px solid #dfdfdf;}
+.gwc_sp_list .gwc_sp_img{float: left;margin-left: 20px;width: 240px;height: 244px;}
+.gwc_sp_list div{float: left;text-align: center;line-height: 245px;}
+.gwc_sp_list .gwc_sp_jg{width: 102px;}
+.gwc_sp_list .gwc_sp_mz{width: 336px;}
+.gwc_sp_list .gwc_sp_sl{width: 106px;}
+.gwc_sp_list .gwc_sp_xj{width: 94px;}
+.gwc_sp_list .gwc_sp_cz{width: 110px;}
+/*    订单提交    */
+.sp-Js{height: 98px;line-height: 98px;padding-left: 800px;position: relative;}
+.sp-zjg{color: #666;font-size: 20px;float: left;}
+.sp-qjs button{border: none;width: 104px;height: 46px;border-radius: 3px;font-family: "微软雅黑";font-size: 16px;margin-left: 20px;color: #fff;background: #ff5d59;}
+.sp-qjs{float: left;}
+.xx-a{height: 140px;background: #fff;display: none;line-height: 140px;}
+.xx-a span{padding: 0px 40px;}
+.sp-Js .xx-ts,.dd-tj{width: 140px;height: 60px;position: absolute;color: #ff0000;background: #fff;-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.5);box-shadow: 0px 15px 30px rgba(0,0,0,0.5);border-radius: 3px;line-height: 60px;display: none;}
+.sp-Js .dd-tj{width: 100px;}
+

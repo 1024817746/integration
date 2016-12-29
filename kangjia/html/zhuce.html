@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/dlzc.css"/>
+</head>
+<script src="../scripts/jquery-1.11.3.js" type="text/javascript"></script>
+<script src="../scripts/jquery.cookie.js"></script>
+<script src="../scripts/index.js" type="text/javascript"></script>
+<script src="../scripts/dlzc.js" type="text/javascript"></script>
+<body>
+	<div class="cebian" id="acd_share">
+    	<p class="cb_a yl" title="售前服务"></p>
+    	<p class="cb_b yl" title="售后服务"></p>
+    	<a href="gwc.html"><p class="cb_c yl" title="购物车"></p></a>
+    	<p id="wxfw" class="cb_d yl" title="微信服务">
+			<div id="wx_fu"><img src="../images/footer_ewm/ewm.jpg"></div>
+    	</p>
+    	<p id="fanhui" class="cb_e yl" title="返回顶部"></p>
+	</div>
+	<!--    头部    -->
+	<div class="Header">
+		<div class="header">
+			<!--    头部左边    -->
+			<div class="header_left">
+				<div class="weibo" title="康佳官方微博"></div>
+				<div id="wx" class="weixin">
+					<div style="z-index: 50" id="ewm" class="ewm"><img src="../images/wxewm.jpg"></div>
+				</div>
+				<div class="kefu" title="康佳客服在线"></div>
+			</div>
+			<!--    头部右边    -->
+			<div class="header_right">
+				<ul>
+					<!--    登录注册    -->
+					<li class="dLzc">
+						<div style="z-index: 50" class="dlzc">
+							<p class="pa"><img src="../images/dl.jpg"><a href="denglu.html">用户登录</a></p>
+							<p class="pb"><img src="../images/zc.jpg"><a href="##">用户注册</a></p>
+						</div>
+					</li>
+					<!--    其他部分    -->
+					<li><a href="##">关于康佳</a></li>
+					<li><a href="##">投资者关系</a></li>
+					<li><a href="##">新闻中心</a></li>
+					<li><a href="##">大宗采购</a></li>
+					<li><a href="##">加入康佳</a></li>
+					<li><a class="a_g" href="##">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--    logo部分     -->
+	<div class="Logo">
+		<div class="logo">
+			<!--    logo图部分     -->
+			<div class="logo_left"><img src="../images/logo.jpg"></div>
+			<!--    中间列表     -->
+			<div class="logo_center">
+				<ul>
+					<li><a href="sp_list.html" target="_blank">电视</a></li>
+					<li><a href="sp_list.html" target="_blank">手机</a></li>
+					<li><a href="sp_list.html" target="_blank">冰洗</a></li>
+					<li><a href="sp_list.html" target="_blank">生活电器</a></li>
+					<li><a href="##">大客户采购</a></li>
+					<li><a href="##">服务</a></li>
+					<li><a href="huod.html">社区</a></li>
+				</ul>
+			</div>
+			<div class="logo_right">
+				<!--    搜索部分     -->
+				<div class="sousuo">
+					<input class="ss_put" type="text">
+					<div class="ds"><a href="sp_list.html" target="_blank">电视</a></div>
+					<input class="ss_sub" type="submit" value="">
+				</div>
+				<!--    购物车部分     -->
+				<div id="gwc_La" class="gwc">
+					<a href="html/gwc.html" target="_blank">购物车</a><span><b>0</b>件</span>
+					<div class="gwc_la">
+						<ul>
+							<li>
+								<div class="gw_img"><img src="../images/sp_list/sp1.jpg"></div>
+								<div class="gw_mz">U40</div>
+								<div class="gw_jg"><span>￥1799.00~1</span><a href="##">移除</a></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--    注册部分     -->
+	<div class="Zhuce">
+		<div id="zhuce" class="zhuce">
+			<div class="zckuang">
+				<div class="dl_title">
+    				<h2 class="color">用户注册</h2>
+  				</div>
+					<ul>
+						<!--    用户名账号注册     -->
+						<li class="form-item">
+      						<label for="" class="form-label"><em class="warn">*</em>登录帐号：</label>
+      						<span class="form-act"><input class="x_input" type="text" placeholder="用户名/邮箱/手机号，最少4个字符">
+      						</span>
+      						<div style="clear:both;"></div>
+      						<p class="pa">用户名不合法 用户名为6-20位</p>
+    					</li>
+    					<!--    密码框     -->
+    					<li class="form-item">
+      						<label for="" class="form-label"><em class="warn">*</em>密码：</label>
+      						<span class="form-act"><input class="x_input" type="password" placeholder="6-20个字符">
+      						</span>
+      						<p class="qd">
+      							<span class="qd_a">密码强度：</span>
+      							<span class="qd_b"><i></i><i></i><i></i></span>
+      						</p>
+      						<div style="clear:both;"></div>
+      						<p class="pa">密码不合法 密码为6-20位字符</p>
+    					</li>
+    					<!--    确认密码框     -->
+    					<li class="form-item">
+      						<label for="" class="form-label"><em class="warn">*</em>确认密码：</label>
+      						<span class="form-act"><input class="x_input" type="password" placeholder="再次填写密码">
+      						</span>
+      						<div style="clear:both;"></div>
+      						<p class="pa">两次密码不一致</p>
+    					</li>
+    					<!--    验证码     -->
+    					<li class="form-item" onselectstart="return false;" style="-moz-user-select:none;">
+    						<label for="" class="form-label"><em class="warn">*</em>验证码：</label>
+           					<span class="form-act"><input class="x_input yz" type="text" placeholder="填写验证码"><input class="x_yz" type="text" value="1234"><i>换一个</i></span>
+           					<div style="clear:both;"></div>
+      						<p class="pa">验证码错误</p>
+           				</li>
+           				<li class="form-item">
+      						<label for="" class="form-label"></label>
+      						<span class="form-act">
+        					<input type="checkbox" class="x-check" checked="checked">
+        					<label for="" class="form-sub-label"> 我已阅读并同意 
+        					<a href="" class="lnklike" >会员注册协议</a>和 
+        					<a href="" class="lnklike" >隐私保护政策</a>
+        					</label>
+      						</span>
+    					</li>
+    					<!--    按钮     -->
+    					<li class="form-item-normal">
+      						<label for="" class="form-label"></label>
+      						<span class="form-act">
+        						<button class="zc_btn"><span>注　册</span></button>      
+        					</span>
+    					</li>
+    					<div class="yz_yz"></div>
+					</ul>
+			</div>
+			<!--    跳转     -->
+			<div class="signup-aside">
+  				<span class="descrip">已经有会员帐号请直接登录</span>
+  				<a href="denglu.html" class="a_btn"><span>转到登录页</span></a>
+			</div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<!--     footer部分 分为上下两部分      -->
+	<div class="Footer">
+		<div class="footer">
+			<!--     footer部分上面      -->
+			<div class="footer_top">
+				<ul class="lf">
+					<li class="la">
+						<div class="la_a s_line">
+                		<p class="pa">全场包邮</p>
+                		<p class="pb">全场商品免费送到家</p>
+              			</div>
+					</li>
+					<li class="lb">
+              			<div class="lb_a s_line">
+                		<p class="pa">质量保证</p>
+                		<p class="pb">享受国家三包政策</p>
+              			</div>
+            		</li>
+            		<li class="lc">
+			            <div class="lc_a s_line">
+			            <p class="pa">权益保障</p>
+			            <p class="pb">7天包退15天包换</p>
+			            </div>
+            		</li>
+            		<li class="ld">
+		                <div class="ld_a s_line">
+		                <p class="pa">放心服务</p>
+		                <p class="pb">24小时内上门服务</p>
+		                </div>
+            		</li>
+            		<li class="le">
+		                <div class="le_a s_line">
+		                <p class="pa">意外惊喜</p>
+		                <p class="pb">限时打折优惠不断</p>
+		                </div>
+            		</li>
+				</ul>
+			</div>
+			<!--     footer部分  下    列表     -->
+			<div class="footer_bottom">
+				<div class="footer_bot_l">
+					<div class="new_center">
+						<div class="help_center"> 
+						<span class="link_name">帮助中心</span> 
+						<ul class="link_ul"> 
+							<li><a alt="购物指南" href="##">购物指南</a></li> 
+							<li><a alt="支付方式" href="##">支付方式</a></li> 
+							<li><a alt="配送方式" href="##">配送方式</a></li> 
+							<li><a alt="售后政策" href="##">售后政策</a></li> 
+							<li><a alt="防伪查询" href="##">防伪查询</a></li> 
+							<li><a alt="彩电供应商" href="##">彩电供应商</a></li> 
+							<li><a alt="通信供应商" href="##">通信供应商</a></li> 
+						</ul>
+						</div>            
+          			</div>
+          			<div class="investment_center">
+						<div class="new_center"> 
+						<span class="link_name">新闻中心</span> 
+						<ul class="link_ul">
+							<li><a alt="集团新闻" href="##">集团新闻</a></li> 
+							<li><a alt="媒体报道" href="##">媒体报道</a></li> 
+							<li><a alt="康佳通讯" href="">康佳通讯</a></li> 
+						</ul>
+ 						</div>          
+          			</div>
+          			<div class="members">
+		  				<div class="investment_center"> 
+		   					<span class="link_name">投资者关系</span>
+						    <ul class="link_ul">
+								<li><a alt="公司概要" href="##">公司概要</a></li>
+								<li><a alt="高管团队" href="##">高管团队</a></li>
+								<li><a alt="股份信息" href="##">股份信息</a></li>
+								<li><a alt="临时公告" href="##">临时公告</a></li>
+								<li><a alt="定期报告" href="##">定期报告</a></li>
+								<li><a alt="公司治理" href="##">公司治理</a></li>
+								<li><a alt="投资者保护" href="##">投资者保护</a></li>
+								
+							</ul>
+      					</div>           
+          			</div>
+          			<div class="abouts_us" style="width:150px;">
+						<div class="members_a"> 
+							<span class="link_name">集团成员网站</span> 
+							<ul class="link_ul"> 
+								<li><a alt="全球服务中心" href="##">全球服务中心</a></li> 
+								<li><a alt="康佳国际营销" href="##">康佳国际营销</a></li> 
+								<li><a alt="康佳通讯科技" href="##">深圳康佳通讯科技</a></li> 
+								<li><a alt="康佳壹视界商业显示" href="##">康佳壹视界商业显示</a></li>
+								<li><a alt="安徽康佳电子" href="##">安徽康佳电子</a></li> 
+								<li><a alt="上海康佳绿色照明" href="##">上海康佳绿色照明</a></li> 
+								<li><a alt="KKTV官网" href="##">KKTV官网</a></li> 
+							</ul>
+ 						</div>          
+          			</div>
+          			<div class="focus fl" style="    margin-right: 30px;">
+						   <div class="abouts_us fl"> 
+						    <span class="link_name">关于我们</span> 
+						    <ul class="link_ul"> 
+							    <li><a alt="了解康佳" href="##">了解康佳</a></li> 
+							    <li><a alt="加入康佳" href="##">加入康佳</a></li> 
+							    <li><a alt="联系我们" href="##">联系我们</a></li> 
+							</ul>
+ 						</div>            
+          			</div>
+          			<div class="focus" style="width: 65px;float: left;">
+				            <span class="link_name">关注我们</span> 
+				            <ul class="link_ul"> 
+					            <li><a alt="官方微博" href="http://weibo.com/konka">官方微博</a></li> 
+					            <li class="footer_top_jS"><a alt="官方微信" href="http://www.konka.com/">官方微信</a>
+					            <div class="footer_ewm"><img src="../images/footer_ewm/ewm.jpg"></div>
+					            </li>
+					            <li><a alt="官方贴吧" href="##">官方贴吧</a></li> 
+					            <li><a alt="官方社区" href="##">官方社区</a></li> 
+					            <li class="footer_top_jS"><a alt="K迷俱乐部" href="##">K迷俱乐部</a>
+					            <div class="footer_ewm"><img src="../images/footer_ewm/km.jpg"></div>	
+					            </li> 
+					            <li><a alt="康佳服务" href="##">康佳服务</a></li> 
+					            <li class="footer_top_jS"><a alt="康佳汇" href="##">康佳汇</a>
+					            <div class="footer_ewm"><img src="../images/footer_ewm/xz.jpg"></div>
+					            </li> 
+							</ul>          
+					</div>
+				</div>
+				<!--     客服      -->
+				<div class="footer_bot_r">
+					<p class="pa">24小时全国服务热线</p>
+					<p class="tel">400-880-0016</p>
+					<p class="kf">QQ在线客服</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<!--    网站最底端公司版权及审批    -->
+	<div class="Footbar">
+		<div class="footbar">
+			<div class="konka"></div>
+			<p class="copyright">
+    			Copyright © 1980-2016 康佳集团股份有限公司 版权所有
+    			| <a alt="联系我们" href="##">联系我们</a>
+		 		| <a alt="法律声明" href="##">法律声明</a>
+		 		| <a alt="隐私保护" href="##">隐私保护</a>
+		 		| <a alt="粤ICP备 05059413" href="##">粤ICP备 05059413</a>
+		 
+     		</p>
+		</div>
+	</div>
+	<div class="Jian">
+		<div class="jian">
+			<div class="ja"><img src="../images/cert.png"></div>
+			<div><img src="../images/gw.png"></div>
+			<div><img src="../images/newGovIcon.gif"></div>
+		</div>
+	</div>
+</body>
+</html>

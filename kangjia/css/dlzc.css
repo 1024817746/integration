@@ -1,0 +1,48 @@
+
+/*    登录部分    */
+.denglu,.zhuce{width: 1200px;margin: 0 auto;}
+.Denglu{width: 100%;height: 522px;background: #f5f5f5;}
+.denglu{height: 522px;}
+.dl{float: left;width: 1200px;height: 410px;margin-top:30px;background: url(../images/dlzc/dl1.jpg) no-repeat;}
+.dlkuang{width: 430px;height: 390px;margin-left: 770px;border: 1px solid #dfdfdf;border-radius: 3px;}
+.dl_title{height: 44px;border-bottom: 1px solid #ccc;padding-left: 20px;}
+.dl_title h2{font: 400 24px/44px '微软雅黑';color: #ff5d59;}
+.form-act{margin-left: 20px;font-size: 14px;display: block;float: left;}
+.x_input {width: 288px;height: 28px;line-height: 28px;padding-left: 4px;font-size: 14px;font-family: "微软雅黑";}
+.la{margin-top: 10px;}
+.form-item{height: 61px;}
+.yz{width: 88px;}
+.form-sub-label {color: #666;}
+.x_btn{width: 72px;height: 35px;background: #ff5d59;border: none;border-radius: 3px;color: #fff;margin-right: 7px;}
+.form-act .a1{color: #ff5d59;}
+.need-signup {padding: 10px 20px;background-color: #efefef;height: 26px;margin-top: 10px;}
+.need-signup h3 {float: left;color: #e73e31;font: 14px/25px '微软雅黑';}
+.need-signup a{display: block;width: 66px;height: 27px;background: #fcfcfc;color: #333;float: right;margin-right: 23px;font-size: 14px;}
+.need-signup a:hover{color: #ff5d59;background: #efefef;}
+.x_yz{width: 70px;height: 25px;text-align: center;font-size: 16px;margin-left: 10px;margin-right: 8px;}
+.form-act i{font-style: normal;color: #ff5d59;font-size: 14px;}
+/*    注册部分    */
+.Zhuce{width: 100%;height: 500px;background: #f5f5f5;}
+.zhuce{height: 500px;}
+.zckuang{width: 626px;height: 405px;margin-top: 30px;border: 2px solid #cccccc;float: left;}
+.dl_title .color{color: #1566c0;}
+.zckuang ul{float: left;margin-top: 10px;position: relative;}
+.dlkuang ul{position: relative;}
+.form-label {width: 145px;height: 32px;text-align: right;float: left;line-height: 32px;font-size: 16px;color: #666666;}
+.warn {color: #ef4521;}
+.form-item .qd{width: 110px;height: 30px;float: left;margin-left: 12px;}
+.form-item .qd_a{display: block;width: 110px;height: 15px;color: #666666;font-size: 14px;}
+.form-item .qd_b{display: block;width: 110px;height: 8px;background: #dddddd;margin-top: 7px;}
+.form-item .qd_b i{display: block;float: left; width: 36px;height: 8px;}
+.form-item .lnklike{color: #ff5d59;}
+.zc_btn{width: 72px;height: 35px;border: none;background: #ff5d59;color: #fff;border-radius: 3px;}
+.signup-aside{float: left;margin-left: 52px;margin-top: 85px;color: #666666;}
+.signup-aside a{display: inline-block; width: 154px;height: 46px;color: #fff;background: #ff5d59;border-radius: 3px;text-align: center;line-height: 46px;}
+.form-item .pa{margin-left: 180px;color: #ff0000;font-size: 14px;display: none;}
+.form-item .pb{margin-left: 30px;color: #ff0000;font-size: 14px;display: none;}
+.yz_yz{width: 100px;height: 60px;position: absolute;right: 0;bottom: 0; z-index: 20;background: #f5f5f5;color: #ff0000;font-size: 14px;}
+.yz_dl{width: 100px;height: 60px;position: absolute;right: 100px;bottom: 50px; z-index: 20;background: #f5f5f5;color: #ff0000;font-size: 14px;}
+
+
+
+
